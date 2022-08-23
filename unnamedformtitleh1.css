@@ -1,0 +1,132 @@
+Body {
+	font-family: 'Arial';
+}
+
+H1 {
+	/* Unnamed Form */
+
+position: absolute;
+width: 398px;
+height: 59px;
+left: 49px;
+top: 39px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 59px;
+/* identical to box height */
+
+color: #D1C7C7;
+
+border: 1px solid #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#title1 {
+	/* Привет, это Unnamed Form, и это... */
+
+
+position: absolute;
+width: 673px;
+height: 49px;
+left: 876px;
+top: 685px;
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+
+color: #D1C7C7;
+}
+
+#title2 {
+	/* Мой первый сайт */
+
+
+position: absolute;
+width: 1156px;
+height: 109px;
+left: 869px;
+top: 874px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 117px;
+
+color: #D1C7C7;
+}
+
+#works {
+	/* Работы */
+
+position: absolute;
+width: 187px;
+height: 59px;
+left: 876px;
+top: 40px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 59px;
+/* identical to box height */
+
+color: #D1C7C7;
+}
+
+#about {
+	/* Обо мне */
+
+position: absolute;
+width: 222px;
+height: 59px;
+left: 1255px;
+top: 40px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 59px;
+/* identical to box height */
+
+color: #D1C7C7;
+}
+
+#contacts {
+	/* Контакты */
+
+position: absolute;
+width: 238px;
+height: 59px;
+left: 1598px;
+top: 39px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 59px;
+/* identical to box height */
+
+color: #D1C7C7;
+}
+
+#mail {
+	/* iogml888@mail.ru */
+
+position: absolute;
+width: 227px;
+height: 29px;
+left: 49px;
+top: 939px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #D1C7C7;
+}
