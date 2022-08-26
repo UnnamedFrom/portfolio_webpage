@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	font-family: Montserrat, sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+	min-width: 960px;
+
+	background-color: white;
+}
+
+.header {
+	width: 1200px;
+	height: 200px;
+	margin: 0 auto;
+
+	background-color: #D3D3D3;
+}
+
+.text {
+	width: 1200px;
+	height: 200px;
+	margin: 0 auto;
+
+	background-color: #A9A9A9;
+}
+
+.works {
+	width: 1200px;
+	height: 200px;
+	display: inline-block;
+	margin: 5px;
+
+	background-color: #696969;
+}
+
+.about {
+	width: 1200px;
+	height: 200px;
+	margin: 0 auto;
+
+	background-color: #778899;
+}
+
+.contacts {
+	width: 1200px;
+	height: 200px;
+	margin: 0 auto;
+
+	background-color: #F0F8FF;
+}
+

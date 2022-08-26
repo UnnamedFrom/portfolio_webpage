@@ -1,43 +1,95 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Portfolio by Unnamed Form</title>
-	<link rel="stylesheet" href="./unnamedformtitleh1.css">
-</head>
-<body>
-	<h1>Unnamed Form</h1>
+<html> 
 
-	<p id=title1>Привет, это Unnamed Form, и это...</p>
+	<head>
+		<meta charset="utf-8">
+		<title>Portfolio by Unnamed Form</title>
 
-	<p id=title2>Мой первый сайт</p>
+		<link rel="stylesheet" type="text/css" href="./style.css"> 						<!--стили-->
 
-	<p id=mail>iogml888@mail.ru</p>
+		<link rel="icon" type="image/png" sizes="16x16" href="./favicon.png">			<!--фавикон-->
 
-	<a 
-	id=works
-	href="./works_page.html"
-	target="_blank"
-	>Работы 
-	</a>
+		<link rel="preconnect" href="https://fonts.googleapis.com">						<!--шрифты google-fonts-->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
 
-	<a 
-	id=about
-	href="./about_page.html"
-	target="_blank"
-	>Обо мне 
-	</a>
+	<body>
+		<div class="container">
 
-	<a 
-	id=contacts
-	href="./contacts_page.html"
-	target="_blank"
-	>Контакты
-	</a>
+			<div class="header">								<!--Верхнее меню-->
+				<div class="title">								
+					<h1>Unnamed Form</h1>						<!--заголовок-->
+				</div>
 
-	<a 
-	href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-	target="_blank"
-	>Secret Link 
-	</a>
-</body>
+					<a>
+						Работы
+					</a>
+
+					<a>
+						Обо мне 
+					</a>
+
+					<a>
+						Контакты
+					</a>
+			<div>
+
+			<div class="text">									<!--Текстовая часть-->
+				<p>Привет, это Unnamed Form, и это...</p>
+				<p>Мой первый сайт</p>
+				<p>iogml888@mail.ru</p>
+			</div>
+
+			<div class="works">									<!--Подборка фото работ-->
+				<h2>Подборка моих работ</h2>
+
+				<div class="works">												<!--Можно указать всего один параметр из width и height, чтобы пропорции не ломались-->
+				</div>
+
+				<div class="works">							
+				</div>
+
+				<div class="works">						
+				</div>
+			</div>
+
+			<div class="about">									<!--Обо мне (текст)-->
+				<h2>Обо мне</h2>
+
+				<p> Текст текст Текст текст Текст текст <br>
+					Текст текст Текст текст Текст текст <br>
+					Текст текст Текст текст Текст текст
+				</p>
+			</div>
+
+			<div class="contacts">								<!--Ссылки на соц-сети-->
+				<h2>Мои социальные сети</h2>
+
+				<ul>											<!--Тэг <ul> нужен для неупорядоченного списка (Unordered LIst)-->
+					<li>										<!-- <li> - это элемент списка-->
+						<a 
+						href="https://instagram.com/unnameon?r=nametag"
+						target="_blank"
+						>Instagram 
+						</a>
+					</li>
+					<li>
+						<a 
+						href="https://t.me/Unnamedform"
+						target="_blank"
+						>Telegram 
+						</a>
+					</li>
+					<li>
+						<a 
+						href="https://vk.com/unnamed.form"
+						target="_blank"
+						>VK 
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
 </html>
